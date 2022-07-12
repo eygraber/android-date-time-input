@@ -45,7 +45,7 @@ versionsBenManes = { id = "com.github.ben-manes.versions", version.ref = "versio
 
 [libraries]
 accompanist-flow = { module = "com.google.accompanist:accompanist-flowlayout", version.ref = "accompanist" }
-android-desugar = "com.android.tools:desugar_jdk_libs:1.1.5"
+android-desugar = "com.android.tools:desugar_jdk_libs:1.2.0"
 
 androidx-activity = { module = "androidx.activity:activity", version.ref = "androidx-activity" }
 androidx-annotations = "androidx.annotation:annotation:1.4.0"
