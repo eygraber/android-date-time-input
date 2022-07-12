@@ -9,7 +9,7 @@ android-sdk-target = "31"
 
 androidx-activity = "1.4.0"
 androidx-appCompat = "1.4.1"
-androidx-core = "1.8.0-rc02"
+androidx-core = "1.8.0"
 androidx-fragment = "1.4.1"
 androidx-test = "1.4.1-alpha06"
 
