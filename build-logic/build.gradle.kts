@@ -2,8 +2,15 @@
 
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
+buildscript {
+  dependencies {
+    classpath(libs.buildscript.dokkaCore)
+  }
+}
+
 plugins {
   `kotlin-dsl`
+  id("org.jetbrains.dokka") version "1.6.21" apply false
 }
 
 tasks.withType<JavaCompile> {
@@ -44,11 +51,12 @@ repositories {
 
 dependencies {
   implementation(files(libs.javaClass.superclass.protectionDomain.codeSource.location))
+  implementation(libs.buildscript.dokka)
+  implementation(libs.buildscript.dokkaCore)
+
   implementation(libs.buildscript.android)
   implementation(libs.buildscript.androidCacheFix)
   implementation(libs.buildscript.detekt)
-  implementation(libs.buildscript.dokka)
-  implementation(libs.buildscript.dokkaCore)
   implementation(libs.buildscript.kotlin)
   implementation(libs.buildscript.publish)
 }

@@ -4,6 +4,7 @@ import com.github.benmanes.gradle.versions.updates.DependencyUpdatesTask
 @Suppress("DSL_SCOPE_VIOLATION", "UnstableApiUsage")
 plugins {
   alias(libs.plugins.versionsBenManes)
+  alias(libs.plugins.dokka) apply false
   id("validate-gradle-properties")
 }
 
