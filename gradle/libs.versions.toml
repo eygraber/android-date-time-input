@@ -56,7 +56,7 @@ androidx-core-ktx = { module = "androidx.core:core-ktx", version.ref = "androidx
 
 jetpack-compose-compiler = { module = "androidx.compose.ui:ui-tooling", version.ref = "jetpack-compose-compiler" }
 jetpack-compose-material = { module = "androidx.compose.material:material", version.ref = "jetpack-compose" }
-jetpack-compose-themeAdapter = { module = "com.google.android.material:compose-theme-adapter", version = "1.1.10" }
+jetpack-compose-themeAdapter = { module = "com.google.android.material:compose-theme-adapter", version = "1.1.15" }
 jetpack-compose-tooling = { module = "androidx.compose.ui:ui-tooling", version.ref = "jetpack-compose" }
 
 buildscript-android = { module = "com.android.tools.build:gradle", version.ref = "android-plugin" }
@@ -71,7 +71,7 @@ detekt = { module = "io.gitlab.arturbosch.detekt:detekt-formatting", version.ref
 detektEygraber-formatting = { module = "com.eygraber.detekt.rules:formatting", version.ref = "detektEygraber" }
 detektEygraber-style = { module = "com.eygraber.detekt.rules:style", version.ref = "detektEygraber" }
 
-google-material = "com.google.android.material:material:1.6.0"
+google-material = "com.google.android.material:material:1.6.1"
 
 kotlinx-coroutines-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "kotlinx-coroutines" }
 kotlinx-coroutines-android = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "kotlinx-coroutines" }
